@@ -2,13 +2,14 @@
 *{box-sizing:border-box}
 body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--text);background:#f8fafc;line-height:1.55}
 img{max-width:100%;display:block}
+.service-card img,.map-visual img,.project-gallery img,.avatar{filter:saturate(.95) contrast(1.03)}
 .container{max-width:1100px;margin:0 auto;padding:0 16px}
 
 .topbar{background:#111827;color:#fff;padding:12px 0}
 .topbar-inner{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .topbar a{color:#fde68a;text-decoration:none}
 
-.hero{position:relative;color:#fff;padding:72px 0;background:url('https://images.unsplash.com/photo-1600585152915-d208bec867a1?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat}
+.hero{position:relative;color:#fff;padding:72px 0;background:url('./assets/images/hero-roofing.jpg') center/cover no-repeat}
 .hero-overlay{position:absolute;inset:0;background:linear-gradient(120deg,rgba(17,24,39,.92),rgba(17,24,39,.72))}
 .hero-content{position:relative;z-index:1;max-width:760px}
 .hero h1{font-size:clamp(2rem,4vw,3rem);margin:.3rem 0}
